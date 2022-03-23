@@ -7,7 +7,7 @@ const MongoClient = mongodb.MongoClient;
 var state = { db: null };
 const db = 'rinnDB';
 //const url = 'mongodb+srv://root_DB:uMZjGJ6nsxRYR8NV@cluster0.sixcs.mongodb.net/rinnDB'
-const url = 'mongodb://root_DB:uMZjGJ6nsxRYR8NV@localhost:27017/rinnDB'
+const url = 'mongodb://root_DB:uMZjGJ6nsxRYR8NV@localhost:27017/rinnDB?authSource=admin'
 //const url = 'mongodb://localhost:27017/rinnDB'
 
 const connect =()=>{
